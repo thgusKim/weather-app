@@ -1,21 +1,29 @@
 body{
-    background: url(https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg);
-    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.button{
+    margin: 10px;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: column;
+    height: 100vh;
 }
 
 .weather-box{
-    border: 3px solid white;
-    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid azure;
+    width: 700px;
+    height: 300px;
     border-radius: 30px;
-    background-color: azure;
+    margin-bottom: 30px;
 }
