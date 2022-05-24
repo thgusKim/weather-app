@@ -7,7 +7,7 @@ const WeatherButton = ({ cities, setCity, selectedCity }) => {
       <Button
         onClick={() => setCity("")}
         className="button"
-        variant={selectedCity == "" ? "secondary" : "light"}
+        variant={selectedCity === "" ? "secondary" : "light"}
       >
         Current Location
       </Button>
@@ -16,7 +16,7 @@ const WeatherButton = ({ cities, setCity, selectedCity }) => {
         <Button
           onClick={() => setCity(item)}
           className="button"
-          variant={selectedCity == item ? "secondary" : "light"}
+          variant={selectedCity === item ? "secondary" : "light"}
         >
           {item}
         </Button>

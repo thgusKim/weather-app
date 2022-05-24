@@ -39,7 +39,7 @@ function App() {
     };
 
   useEffect(() => {
-    if (city == "") {
+    if (city === "") {
       getCurrentLocation();
     } else {
       getWeatherByCity();
